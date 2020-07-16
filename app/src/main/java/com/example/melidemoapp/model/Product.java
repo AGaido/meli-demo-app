@@ -1,11 +1,15 @@
 package com.example.melidemoapp.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by alejandro.gaidolfi on 13/07/20.
  */
-public class Product {
+public class Product implements Serializable {
 
     private String title;
     private String price;
@@ -52,4 +56,5 @@ public class Product {
     public void setThumbnail(String thumbnail) {
         this.thumbnail = thumbnail;
     }
+
 }

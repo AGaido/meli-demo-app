@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.melidemoapp.ui.main.MainFragment"
+        android:name="com.example.melidemoapp.ui.fragment.SearchProduct"
         android:label="main_fragment"
         tools:layout="@layout/main_fragment" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/productDetail"
-        android:name="com.example.melidemoapp.ProductDetail"
+        android:name="com.example.melidemoapp.ui.fragment.ProductDetail"
         android:label="product_detail_fragment"
         tools:layout="@layout/product_detail_fragment" />
 </navigation>

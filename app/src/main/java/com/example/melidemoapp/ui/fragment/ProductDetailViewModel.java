@@ -1,4 +1,4 @@
-package com.example.melidemoapp;
+package com.example.melidemoapp.ui.fragment;
 
 import androidx.lifecycle.ViewModel;
 
